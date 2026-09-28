@@ -1,4 +1,4 @@
-letexport default function Nav({ activeTab, setActiveTab, holdCount }) {
+export default function Nav({ activeTab, setActiveTab, holdCount }) {
   const tabs = [
     { id: 'new-order', label: 'New Order' },
     { id: 'orders', label: 'Orders', badge: holdCount },
